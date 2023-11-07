@@ -129,7 +129,8 @@ int main()//começo de tudo(menu)
 	     printf("Escolha a opçao desejada do menu:\n\n");
      	printf("\t1 - Registrar Nomes\n");
      	printf("\t2 - Consultar Nomes\n");
-    	printf("\t3 - Deletar Nomes\n\n");
+    	printf("\t3 - Deletar Nomes\n");
+    	printf("\t4 - Sair do Sistema\n\n");
     	printf("Opçao:");                      //quarta parte
 	
     	scanf("%d", &opcao);               //terceira parte do projeto
@@ -152,6 +153,11 @@ int main()//começo de tudo(menu)
 	    case 3: 	    
 	    deletar();
 		system("pause");     // quinta parte		
+		break;
+		
+		 case 4: 	    
+	  	printf("Obrigado por usar o nosso sistema\n");	
+		return 0;
 		break;
 		
 		default:			
